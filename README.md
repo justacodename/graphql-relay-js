@@ -1,3 +1,7 @@
+## THIS IS A TEMPORARY FORK OF https://github.com/graphql/graphql-relay-js 
+
+Please use the version at https://github.com/graphql/graphql-relay-js, this repo only exists to publish a pre-release.
+
 # Relay Library for GraphQL.js
 
 This is a library to allow the easy creation of Relay-compliant servers using the [GraphQL.js](https://github.com/graphql/graphql-js) reference implementation of a GraphQL server.

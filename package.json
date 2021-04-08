@@ -1,16 +1,16 @@
 {
-  "name": "graphql-relay",
-  "version": "0.6.0",
+  "name": "@justacodename/graphql-relay",
+  "version": "0.6.102-pre",
   "description": "A library to help construct a graphql-js server supporting react-relay.",
   "license": "MIT",
   "private": true,
-  "homepage": "https://github.com/graphql/graphql-relay-js",
+  "homepage": "https://github.com/justacodename/graphql-relay-js",
   "bugs": {
     "url": "https://github.com/graphql/graphql-relay-js/issues"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/graphql/graphql-relay-js.git"
+    "url": "https://github.com/justacodename/graphql-relay-js.git"
   },
   "main": "index.js",
   "types": "index.d.ts",
@@ -33,26 +33,26 @@
     "graphql": "^14.7.0 || ^15.5.0"
   },
   "devDependencies": {
-    "@babel/core": "7.13.10",
-    "@babel/eslint-parser": "7.13.10",
-    "@babel/node": "7.13.10",
+    "@babel/core": "7.13.14",
+    "@babel/eslint-parser": "7.13.14",
+    "@babel/node": "7.13.13",
     "@babel/plugin-transform-flow-strip-types": "7.13.0",
-    "@babel/preset-env": "7.13.10",
-    "@babel/register": "7.13.8",
-    "@typescript-eslint/eslint-plugin": "4.17.0",
-    "@typescript-eslint/parser": "4.17.0",
+    "@babel/preset-env": "7.13.12",
+    "@babel/register": "7.13.14",
+    "@typescript-eslint/eslint-plugin": "4.21.0",
+    "@typescript-eslint/parser": "4.21.0",
     "chai": "4.3.4",
-    "cspell": "5.3.7",
-    "eslint": "7.22.0",
-    "eslint-plugin-flowtype": "5.3.1",
+    "cspell": "5.3.12",
+    "eslint": "7.23.0",
+    "eslint-plugin-flowtype": "5.6.0",
     "eslint-plugin-import": "2.22.1",
     "eslint-plugin-istanbul": "0.1.2",
     "eslint-plugin-node": "11.1.0",
-    "flow-bin": "0.146.0",
+    "flow-bin": "0.148.0",
     "graphql": "15.5.0",
     "mocha": "8.3.2",
     "nyc": "15.1.0",
     "prettier": "2.2.1",
-    "typescript": "4.2.3"
+    "typescript": "4.2.4"
   }
 }

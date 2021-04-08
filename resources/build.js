@@ -71,7 +71,7 @@ function buildPackageJSON() {
   if (preReleaseTag != null) {
     const [tag] = preReleaseTag.split('.');
     assert(
-      tag.startsWith('experimental-') || ['alpha', 'beta', 'rc'].includes(tag),
+      tag.startsWith('experimental-') || ['pre', 'alpha', 'beta', 'rc'].includes(tag),
       `"${tag}" tag is supported.`,
     );
 
