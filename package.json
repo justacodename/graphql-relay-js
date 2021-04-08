@@ -1,0 +1,25 @@
+{
+  "name": "graphql-relay",
+  "version": "0.6.99-pre",
+  "description": "A library to help construct a graphql-js server supporting react-relay.",
+  "license": "MIT",
+  "homepage": "https://github.com/justacodename/graphql-relay-js",
+  "bugs": {
+    "url": "https://github.com/graphql/graphql-relay-js/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/justacodename/graphql-relay-js.git"
+  },
+  "main": "index.js",
+  "types": "index.d.ts",
+  "engines": {
+    "node": "^12.20.0 || ^14.15.0 || >= 15.9.0"
+  },
+  "peerDependencies": {
+    "graphql": "^14.7.0 || ^15.5.0"
+  },
+  "publishConfig": {
+    "tag": "pre"
+  }
+}
